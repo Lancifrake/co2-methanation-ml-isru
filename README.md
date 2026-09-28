@@ -10,7 +10,10 @@ The models predict **CO₂ conversion** and **CH₄ selectivity** of Ni catalyst
 support composition, preparation and operating conditions.
 
 Master research project (MSR) at ICAM Strasbourg-Europe, with the ICube and
-ICPEES laboratories (Sept. 2025 – Jan. 2026). Work presented at EHEC 2026 (Seville).
+ICPEES laboratories (Sept. 2025 – Jan. 2026). This work fed into the poster
+*AI-based prediction of high-performance catalysts derived from waste for hydrogen
+methanation in space applications* (P51), European Hydrogen Energy Conference
+(EHEC 2026), Seville, 11–13 March 2026.
 
 ## Highlights
 
