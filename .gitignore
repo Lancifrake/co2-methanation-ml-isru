@@ -1,0 +1,20 @@
+# OS / editors
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data: only the curated CSVs are versioned
+data/*
+!data/README.md
+!data/catalyst_methanation_dataset.csv
+!data/references.csv
+*.xlsx
+
+# Generated outputs (curated figures and tables live in docs/)
+outputs/
+catboost_info/
+*.joblib
+*.pkl

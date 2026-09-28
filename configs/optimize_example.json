@@ -1,0 +1,30 @@
+{
+  "_comment": "Example: Ni-CeO2 on acid-treated blast-furnace slag (source [3]). Bounds stay inside the training ranges.",
+  "strategy": "balanced",
+  "maxiter": 50,
+  "popsize": 15,
+  "fixed": {
+    "Catalyst source": "hBFS",
+    "Catalyst type": "Ni-CeO2/hBFS",
+    "Active phase": "Ni⁰ + CeO2",
+    "SiO2 %wt": 40.24,
+    "Al2O3 %wt": 18.01,
+    "SO3 %wt": 0.31,
+    "MgO %wt": 5.50,
+    "CaO %wt": 33.40,
+    "TiO2 %wt": 0.98,
+    "Pressure (bar)": 1.0,
+    "Reduction Pressure (bar)": 1.0,
+    "Ration CO2/H2": 0.25,
+    "CO % in feed": 0.0,
+    "CH4 % in feed": 0.0,
+    "H2O % in feed": 0.0
+  },
+  "bounds": {
+    "% wt AP": [5, 20],
+    "Calcination Temperature (C)": [400, 550],
+    "Reduction Temperature (C)": [300, 500],
+    "Temperature (C)": [200, 550],
+    "Inert % in feed": [0, 25]
+  }
+}
